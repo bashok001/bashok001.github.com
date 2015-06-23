@@ -1,0 +1,11 @@
+# Authors
+
+john_doe:
+  name: John Doe
+  web: http://example.com
+  email: john.doe@example.com
+  bio: "Unknown creature"
+  avatar: bio-photo-2.jpg
+  twitter: johndoe
+  google:
+    plus: JohnDoe

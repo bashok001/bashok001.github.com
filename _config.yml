@@ -1,0 +1,60 @@
+# Site wide configuration
+
+title:            Ashok Bommisetti
+locale:           en_US
+url:              
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Ashok Bommisetti
+  avatar: bio.jpg
+  bio: "Coder, Dreamer and Learner."
+  email: "bashok001@gmail.com"
+  disqus-shortname: "bashok"
+  twitter: "@bashok001"
+  facebook: "bashok001"
+  google:
+    plus: "AshokBommisetti"
+    analytics: "UA-64453705-1"
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: "bashok001"
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: "bashok"
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
