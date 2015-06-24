@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "It's my geekery - Ashok Bommisetti"
+tags: [Ashok, Bommisetti, bashok001, cynic, geek]
 image:
   feature: sample-image-1.jpg
   credit: WeGraphics
