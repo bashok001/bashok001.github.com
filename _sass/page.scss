@@ -48,8 +48,10 @@ body {
 	@include prefix(12,1);
 	@include suffix(12,1);
 	margin-bottom: 1em;
+	margin-top: 4%;
 	float: none;
 	display: block;
+	
 	@media #{$small} {
 		@include grid(12,9);
 		@include prefix(12,0);
