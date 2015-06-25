@@ -2,7 +2,8 @@
 
 title:            Ashok Bommisetti
 locale:           en_US
-url:              
+url:              https://www.bashok.com
+enforce_ssl:      bashok.com
 logo:             logo-cynic.png
 
 
