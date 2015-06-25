@@ -8,7 +8,7 @@
 
 {% include _open-graph.html %}
 
-{% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
+{% if site.owner.google.verify %}
 <meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
 {% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
 
@@ -33,7 +33,8 @@
 <!-- Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
-<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif:400,700|Roboto+Mono' rel='stylesheet' type='text/css'>
+
 <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/images/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/images/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72.png">

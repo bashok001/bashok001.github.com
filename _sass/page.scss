@@ -246,6 +246,7 @@ $button-size: 1.5rem;
 	}
 }
 
+
 /* Index listing specific styling */
 #index {
 	@include container;
@@ -282,6 +283,50 @@ $button-size: 1.5rem;
 		p+p {
 			text-indent: 0;
 		}
+	}
+}
+
+.mono-display {
+	clear: both;
+	padding: 50px .01%;
+	background-color: #000000;
+
+	@include container;
+	@include clearfix;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+
+	@media #{$small} {
+		@include grid(12,6);
+		@include prefix(12,0);
+		@include suffix(12,0);
+		font-size: 600%;
+		min-height: 100px;
+	}
+	@media #{$x-large} {
+		@include grid(12,12);
+		min-height: 200px;
+		font-size: 300%;
+	}
+	
+	color: #FFFFFF;
+	text-align: center;
+	
+	m {
+		font-family: 'Roboto Mono';
+		font-weight: 400;
+	}
+	tag {
+		font-size: 40%;
+		font-style: italic;
+		color: #F5871C;
+	}
+	tag2 {
+		display: block;
+		font-size: 40%;
+		font-style: italic;
+		color: #DBDBDB;
 	}
 }
 
