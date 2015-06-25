@@ -378,6 +378,19 @@ $button-size: 1.5rem;
 	}
 }
 
+.centerpos {
+	display: table;
+    vertical-align: middle;
+	text-align: center;
+   	margin: auto;
+}
+
+.bigbtn{
+	width: 50%;
+	height: 30%;
+}
+
+
 /* Post byline */
 .byline {
 	clear: both;
@@ -674,6 +687,7 @@ $button-size: 1.5rem;
 	@include clearfix;
 	clear: both;
 	padding-bottom: 3em;
+	padding-top: 3em;
 	a,
 	a:active,
 	a:visited,
