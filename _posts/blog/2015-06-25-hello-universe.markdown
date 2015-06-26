@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello, Universe!"
-modified:
+comments: true
 categories: blog/
 tags: [ashok, intro, hello world, roadmap]
 image:

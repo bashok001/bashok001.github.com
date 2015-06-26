@@ -1,7 +1,6 @@
 ---
-layout: {{ layout }}
+layout: page
 title: {{ title }}
-modified:
 categories: portfolio
 excerpt:
 tags: []

@@ -1,9 +1,8 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
-modified:
+comments: true
 categories: {{ dir }}
-excerpt:
 tags: []
 image:
   feature:
