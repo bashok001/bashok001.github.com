@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: portfolio-index
 title: Projects
 excerpt: "Projects"
 ---

@@ -1,0 +1,71 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="post-index">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <div id="index">
+    <div id="allposts">
+    {% for post in site.categories.portfolio %}
+      {% if post.stamp %}
+        <div class="eachpost stamp">
+      {% else %}
+        <div class="eachpost">
+      {% endif %}
+      <div>
+        <div>
+          {% if post.image %}
+          <img src="{{ site.url }}/images/{{ post.image }}"/>
+          {% endif %}
+        </div><br />
+        <br />
+        {% assign titlelen = post.title.size %}
+        {% if titlelen > 0 %}
+          {% if post.link %}
+            <div class="tileheader"><a href="{{ post.link }}" title="{{ post.title }}"><i class="fa fa-link"></i> {{ post.title }}</a></div>
+          {% else %}
+            <div class="tileheader"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+          {% endif %}    
+        {% endif %}
+        {% if post.excerpt %}
+        <div class="contentIndex">
+            {{ post.excerpt | strip_html | truncate: 300 }}
+        </div>
+        {% endif %}
+        {% if post.htmlexcerpt %}
+        <div class="contentIndex">
+            {{ post.htmlexcerpt }}
+        </div>
+        {% endif %}
+        <!--small>Filed under:&nbsp; <a href="javascript:void(0)">Web</a>, <a href="javascript:void(0)">Side Project</a></small-->
+      </div>
+    </div>
+    {% endfor %}
+    </div>
+
+  </div><!-- /#index -->
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+  
+</body>
+</html>

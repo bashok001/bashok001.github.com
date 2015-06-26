@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Ashok"
+modified:
+categories: portfolio
+htmlexcerpt: "<p style='text-align: justify;'><b>Hello!</b>&nbsp;&nbsp;I'm a product builder, sideline hacker and a geek.<br/>This space is to discuss my projects and record their API for times to come.</p>"
+tags: []
+link: https://www.bashok.com/about
+stamp: stamp
+date: 2015-06-26T00:24:50-04:00
+---
+

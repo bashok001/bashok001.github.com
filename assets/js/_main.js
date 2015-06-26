@@ -64,4 +64,21 @@ $(document).ready(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+
+  var masonry = function () {
+    var $container = document.querySelector('#allposts');
+    // initialize Masonry after all images have loaded
+    imagesLoaded( $container, function() {
+      var msnry = new Masonry( $container, {
+        // options
+        itemSelector: '.eachpost',
+        stamp: '.stamp',
+        gutter: 20,
+      });
+    });
+  };
+  
+  // Call Masonry
+  masonry();
+
 });
