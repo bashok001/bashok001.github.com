@@ -1,28 +1,24 @@
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
-{% else %}<meta name="twitter:description" content="{{ post.content | strip_html |truncate: 160 }}">
-{% endif %}
+{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 {% if site.owner.twitter %}<meta name="twitter:site" content="{{ site.owner.twitter }}">{% endif %}
 {% if author.twitter %}<meta name="twitter:creator" content="{{ author.twitter }}">{% endif %}
 {% if page.image.feature %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+<meta name="twitter:image" content="https://www.bashok.com/images/{{ page.image.feature }}">
 {% else %}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ site.logo }}">
+<meta name="twitter:image" content="{% if page.image.thumb %} https://www.bashok.com/images/{{ page.image.thumb }}{% else %}https://www.bashok.com/images/{{ site.logo }}{% endif %}">
 {% endif %}
 <!-- Open Graph -->
 <meta property="og:locale" content="{{ site.locale }}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">
-{% else %}<meta name="twitter:description" content="{{ post.content | strip_html |truncate: 160 }}">
-{% endif %}
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: https://www.bashok.com }}">
+{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: 'https://www.bashok.com' }}">
 <meta property="og:site_name" content="{{ site.title }}">
 {% if page.image.feature %}
-<meta property="og:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+<meta property="og:image" content="https://www.bashok.com/images/{{ page.image.feature }}">
 {% else %}
-<meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">
+<meta property="og:image" content="{% if page.image.thumb %}https://www.bashok.com/images/{{ page.image.thumb }}{% else %}https://www.bashok.com/images/{{ site.logo }}{% endif %}">
 {% endif %}
