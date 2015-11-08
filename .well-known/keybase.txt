@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/bashok001
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bashok.com
+  * I am bashok001 (https://keybase.io/bashok001) on keybase.
+  * I have a public key with fingerprint 0919 26F0 578F 81B5 33F7  1785 3A66 321F 6121 F098
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011a9db7adc4cb0c51d9a530266902291d8593429ea303fa287cefc2a4c8bd82a80a",
+            "fingerprint": "091926f0578f81b533f717853a66321f6121f098",
+            "host": "keybase.io",
+            "key_id": "3a66321f6121f098",
+            "kid": "01011a9db7adc4cb0c51d9a530266902291d8593429ea303fa287cefc2a4c8bd82a80a",
+            "uid": "faccdf2d1751263b7beda5809e217119",
+            "username": "bashok001"
+        },
+        "service": {
+            "hostname": "bashok.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447011722,
+    "expire_in": 157680000,
+    "prev": "50914c8257555820e941ee14d28f865691c0f5c03cf0fb8095d72cde6066c426",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUmtMFFcY3d1ajCBlwUapblkdA5SAOHd257WNbgKWVsHShkKLpVnncYcdHjOw
+O4BIV2OpKdW0i9i4lm5TnpGwNkBQWwMJ8qrpg5b6pIparVrRxoBJadAUe4e0P5r0
+Z++Pe3O/nHPuOd/96iOfMJiMDomwcmumDxu/neINec72+hqMV8VqzFGDFcOFA5aI
+0Ku5imURc2A4wAHgWJGnOVGwCzwukEBkOdKGExTF4gTBApEhWZudYCFnw20SRzC0
+ACWB4OwCw4sMwTE4h6VgkqwUQk+ZR1Y0XZYFLEFJOEkzEgN40maTaEAzpI2jKBsB
+JAqgDWcZRHSrXp2BzPGcF6bKKqqhi2vB3n/g/2ffFQtyEicIokSIgCYBQdl4moci
+RzI4CwlAA8DqQC/0KFwpRGhk1K0W4zjAfCkYKlfKAtQ7q0f5FyRVUEsRtcyjaqqg
+lqC6W9PKvA6dp1WX6cAqyLv+lnDxsiKiNiJGJfR4ZVXBHAAhBU3WNYHdTqPQNEGk
+YHBHmeyBLllHkDTF4Gjp78BKJEmi7qOQxOskTZIkQ+CQtQMIgV0k0G9QJMUCAZdI
+AbcJEi7xKCUp0oQgQgqnKMFOUJieqlxRMQeJfHKFSNMrFyqcVuGBmC/8fZNlkcFo
+MoQ9adIHzBC+xPzP1GWciHqsxF2bXY+9fLRrNda9oqPzeJsvs23tRMO+E++MMT17
+YrZc/TEmP2pjY0xmVI156Vc7ckcevHXrdALV4ElriThmwl+8/FNnIOfO/evF9f2j
+xwamW9cN/hbpH7zcte6NuK2R90rSMgudF1MDIdw8HE4+Ctb9EIzb+Vj5/NylZF/o
+iyrzROeyfZOLehvyZOV2xYb84FyGsWWqk5xK3uRML6+dn+nLORyU8kJZvoqfs0Lz
+YQ6r2VmZdjDxVLx//On+Q58MpK/sTVr+/cb9ll8ml/WYy2eXv3A0ND26vSD6SoeP
+nd0/gBpZu7RLW5xh3V018asyMbOqFveOlL4kXUjMvThzv3EzD2bmto73NN3Ib4yI
+Ltp2ofl8Nz2tRp2fLYh77/mCsLuWiWtz34E2YveXrzywbnHe3TnXfWDFyK4zRdHO
+vlXjf45Njsaaom4PHzSXb7/zzOiaxONfB7LBeG67W6uabOICXP364dOxaZ9Z/dlD
+kzzd6Gaz+OC7PbVgKEZ9+4j5m82lhiVG+PBj417/yO+aN+fs3OLRykvxzZaIGytP
+jj1MD49PCjkGwYf+oHrS636qpLEWvHmzrqJukPo0Ye09y5XVj85Zsve8+pH1taah
+QMKholN7p+d39fq0jpabqc8mtHt6jkS7P6juaz67IUlsjT2T3HdrfJtr0/X+A/nP
+lTS0Xv0jMPgX
+=mrzy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bashok001
+
+==================================================================
